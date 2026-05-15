@@ -35,11 +35,11 @@ const Info = () => (
 
           <div className="glass-card rounded-lg p-6 space-y-4">
             <h2 className="font-body text-xs font-semibold text-muted-foreground uppercase tracking-[0.2em]">Contact</h2>
-            <a href="mailto:management@shrineband.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
-              <Mail size={18} /> management@shrineband.com
+            <a href="mailto:management@harperband.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
+              <Mail size={18} /> management@harperband.com
             </a>
-            <a href="mailto:press@shrineband.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
-              <Mail size={18} /> press@shrineband.com
+            <a href="mailto:press@harperband.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
+              <Mail size={18} /> press@harperband.com
             </a>
           </div>
 
@@ -67,7 +67,7 @@ const Info = () => (
           className="lg:sticky lg:top-28"
         >
           <div className="aspect-[3/4] rounded-lg overflow-hidden grain-overlay">
-            <img src={bandPortrait} alt="Shrine band photo" className="w-full h-full object-cover" />
+            <img src={bandPortrait} alt="Harper band photo" className="w-full h-full object-cover" />
           </div>
         </motion.div>
       </div>

@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="border-t border-border bg-background">
     <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-6">
       <Link to="/" className="font-script text-foreground text-3xl hover:text-muted-foreground transition-colors">
-        Shrine
+        Harper
       </Link>
       <div className="flex items-center gap-5">
         {[Instagram, Twitter, Facebook].map((Icon, i) => (
@@ -20,7 +20,7 @@ const Footer = () => (
         ))}
       </div>
       <p className="font-body text-muted-foreground text-xs tracking-wide">
-        © {new Date().getFullYear()} Shrine. All rights reserved.
+        © {new Date().getFullYear()} Harper. All rights reserved.
       </p>
     </div>
   </footer>

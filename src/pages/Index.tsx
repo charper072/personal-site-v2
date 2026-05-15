@@ -33,7 +33,7 @@ const Index = () => (
             Since 2019
           </motion.p>
           <h1 className="font-script text-foreground text-[8rem] xl:text-[10rem] leading-[0.85] -rotate-6 select-none">
-            Shrine
+            Harper
           </h1>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -68,7 +68,7 @@ const Index = () => (
       <div className="w-full lg:w-1/2 relative">
         <motion.img
           src={heroConcert}
-          alt="Shrine performing live"
+          alt="Harper performing live"
           className="absolute inset-0 w-full h-full object-cover object-center grayscale"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
@@ -86,7 +86,7 @@ const Index = () => (
           >
             <p className="font-script text-foreground/50 text-lg mb-2 italic">Since 2019</p>
             <h1 className="font-script text-foreground text-7xl leading-[0.85] select-none">
-              Shrine
+              Harper
             </h1>
           </motion.div>
         </div>
@@ -99,7 +99,7 @@ const Index = () => (
           className="hidden lg:block absolute bottom-12 right-8 text-right"
         >
           <h2 className="font-display text-foreground text-6xl xl:text-7xl tracking-tight leading-none">
-            SHRINE
+            HARPER
           </h2>
         </motion.div>
       </div>
