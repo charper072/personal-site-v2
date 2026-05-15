@@ -26,7 +26,7 @@ const Header = () => {
       >
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
           <Link to="/" className="font-display text-2xl text-foreground tracking-[0.15em] hover:text-muted-foreground transition-colors">
-            SHRINE
+            HARPER
           </Link>
           <nav className="hidden md:flex items-center gap-10">
             {navLinks.map((link) => (
@@ -63,7 +63,7 @@ const Header = () => {
             className="fixed inset-0 bg-background z-[60] flex flex-col"
           >
             <div className="flex justify-between items-center px-6 py-5">
-              <span className="font-display text-2xl text-foreground tracking-[0.15em]">SHRINE</span>
+              <span className="font-display text-2xl text-foreground tracking-[0.15em]">HARPER</span>
               <button onClick={() => setMenuOpen(false)} className="text-foreground" aria-label="Close menu">
                 <X size={24} />
               </button>

@@ -33,7 +33,7 @@ const VideoDetail = () => {
           </div>
           <div className="h-[1px] bg-border mb-6" />
           <p className="font-body text-muted-foreground leading-relaxed">
-            Experience the visual storytelling of Shrine. This {video.type.toLowerCase()} captures the raw energy and emotion of our creative process.
+            Experience the visual storytelling of Harper. This {video.type.toLowerCase()} captures the raw energy and emotion of our creative process.
           </p>
         </div>
       </div>
