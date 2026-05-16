@@ -115,7 +115,7 @@ const Index = () => (
           transition={{ duration: 0.6 }}
           className="font-display text-foreground text-4xl md:text-5xl tracking-tight mb-12"
         >
-          LATEST ADDITIONS
+          LATEST Projects
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
