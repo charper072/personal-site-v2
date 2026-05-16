@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Instagram, Twitter, Facebook, Linkedin } from "lucide-react";
+import { Mail, Instagram, Linkedin, Facebook } from "lucide-react";
 import { bandBio, bandMembers } from "@/data/mockData";
 import bandPortrait from "@/assets/band-portrait.jpg";
 
@@ -46,10 +46,16 @@ const Info = () => (
           <div>
             <h2 className="font-body text-xs font-semibold text-muted-foreground uppercase tracking-[0.2em] mb-5">Follow</h2>
             <div className="flex gap-4">
-              {[Instagram, Twitter, Facebook].map((Icon, i) => (
+              {[
+                { Icon: Instagram, href: "#" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/in/chris-harper-eit/" },
+                { Icon: Facebook, href: "#" },
+              ].map(({ Icon, href }, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={href}
+                  target={href.startsWith("http") ? "_blank" : undefined}
+                  rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
                   className="w-12 h-12 rounded-full glass-card-hover flex items-center justify-center text-foreground"
                 >
                   <Icon size={20} />

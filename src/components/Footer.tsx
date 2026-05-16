@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Twitter, Facebook } from "lucide-react";
+import { Instagram, Linkedin, Facebook } from "lucide-react";
 
 const Footer = () => (
   <footer className="border-t border-border bg-background">
@@ -8,10 +8,16 @@ const Footer = () => (
         Harper
       </Link>
       <div className="flex items-center gap-5">
-        {[Instagram, Twitter, Facebook].map((Icon, i) => (
+        {[
+          { Icon: Instagram, href: "#" },
+          { Icon: Linkedin, href: "https://www.linkedin.com/in/chris-harper-eit/" },
+          { Icon: Facebook, href: "#" },
+        ].map(({ Icon, href }, i) => (
           <a
             key={i}
-            href="#"
+            href={href}
+            target={href.startsWith("http") ? "_blank" : undefined}
+            rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
             className="text-muted-foreground hover:text-foreground transition-colors"
             aria-label="Social link"
           >
