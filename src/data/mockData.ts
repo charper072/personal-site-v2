@@ -88,7 +88,7 @@ export const bandMembers = [
   { name: "Sam Rivera", role: "Drums" },
 ];
 
-export const bandBio = "Harper emerged from Washington DC's underground music scene in 2026, blending post-punk aesthetics with electronic experimentation. Led by vocalist Maya Chen and guitarist David Torres, the band has evolved from DIY basement shows to international tours. Their sound—characterized by atmospheric guitars, driving rhythms, and introspective lyrics—has earned critical acclaim and a devoted following. With three studio albums and countless live performances, Harper continues to push boundaries while staying true to their raw, emotional core.";
+export const bandBio = "Harper emerged from High Point's underground music scene in 2026, blending post-punk aesthetics with electronic experimentation. Led by vocalist Maya Chen and guitarist David Torres, the band has evolved from DIY basement shows to international tours. Their sound—characterized by atmospheric guitars, driving rhythms, and introspective lyrics—has earned critical acclaim and a devoted following. With three studio albums and countless live performances, Harper continues to push boundaries while staying true to their raw, emotional core.";
 
 export const navLinks = [
   { label: "Music", path: "/music" },
