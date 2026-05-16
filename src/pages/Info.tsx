@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Instagram, Twitter, Facebook } from "lucide-react";
+import { Mail, Instagram, Twitter, Facebook, Linkedin } from "lucide-react";
 import { bandBio, bandMembers } from "@/data/mockData";
 import bandPortrait from "@/assets/band-portrait.jpg";
 
@@ -38,8 +38,8 @@ const Info = () => (
             <a href="mailto:charper072@gmail.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
               <Mail size={18} /> charper072@gmail.com
             </a>
-            <a href="mailto:press@harperband.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
-              <Mail size={18} /> press@harperband.com
+            <a href="https://www.linkedin.com/in/chris-harper-eit/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
+              <Linkedin size={18} /> linkedin.com/in/chris-harper-eit
             </a>
           </div>
 
