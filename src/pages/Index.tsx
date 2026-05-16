@@ -5,7 +5,7 @@ import heroConcert from "@/assets/hero-concert.jpg";
 
 const latestAdditions = [
   { icon: Music, category: "Music", title: '"Silent Thunder" Single', detail: "Released Today", cta: "Listen Now", link: "/music/silent-thunder" },
-  { icon: ShoppingBag, category: "Interests", title: "Tour 2024 Black T-Shirt", detail: "Just Dropped", cta: "Shop Now", link: "/merch/tour-2024-tshirt" },
+  { icon: ShoppingBag, category: "Projects", title: "Tour 2024 Black T-Shirt", detail: "Just Dropped", cta: "Shop Now", link: "/merch/tour-2024-tshirt" },
   { icon: Play, category: "Video", title: '"Midnight Echo" Live', detail: "New Upload", cta: "Watch Now", link: "/videos/midnight-echo-live" },
   { icon: MapPin, category: "Tour", title: "Brooklyn, NY · Mar 15", detail: "Tickets Available", cta: "Get Tickets", link: "/tour" },
 ];

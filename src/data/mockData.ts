@@ -92,7 +92,7 @@ export const bandBio = "Harper emerged from High Point's underground music scene
 
 export const navLinks = [
   { label: "Music", path: "/music" },
-  { label: "Interests", path: "/merch" },
+  { label: "Projects", path: "/merch" },
   { label: "Videos", path: "/videos" },
   { label: "Tour", path: "/tour" },
   { label: "Info", path: "/info" },
