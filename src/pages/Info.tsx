@@ -35,8 +35,8 @@ const Info = () => (
 
           <div className="glass-card rounded-lg p-6 space-y-4">
             <h2 className="font-body text-xs font-semibold text-muted-foreground uppercase tracking-[0.2em]">Contact</h2>
-            <a href="mailto:management@harperband.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
-              <Mail size={18} /> management@harperband.com
+            <a href="mailto:charper072@gmail.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
+              <Mail size={18} /> charper072@gmail.com
             </a>
             <a href="mailto:press@harperband.com" className="flex items-center gap-3 font-body text-foreground hover:text-muted-foreground transition-colors">
               <Mail size={18} /> press@harperband.com
