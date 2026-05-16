@@ -82,7 +82,7 @@ export const tourDates: TourDate[] = [
 ];
 
 export const bandMembers = [
-  { name: "Awards & Honors", role: "Honors UNC, Distinguished Graduate Client Sys Ops Cyber" },
+  { name: "Cyber Security", role: "Comptia Sec+, Cysa+ (in Prigress)" },
   { name: "David Torres", role: "Guitar, Production" },
   { name: "Jordan Lee", role: "Bass" },
   { name: "Sam Rivera", role: "Drums" },
