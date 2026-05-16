@@ -5,12 +5,12 @@ import heroConcert from "@/assets/hero-concert.jpg";
 
 const latestAdditions = [
   { icon: Music, category: "Music", title: '"Silent Thunder" Single', detail: "Released Today", cta: "Listen Now", link: "/music/silent-thunder" },
-  { icon: ShoppingBag, category: "Merch", title: "Tour 2024 Black T-Shirt", detail: "Just Dropped", cta: "Shop Now", link: "/merch/tour-2024-tshirt" },
+  { icon: ShoppingBag, category: "Interests", title: "Tour 2024 Black T-Shirt", detail: "Just Dropped", cta: "Shop Now", link: "/merch/tour-2024-tshirt" },
   { icon: Play, category: "Video", title: '"Midnight Echo" Live', detail: "New Upload", cta: "Watch Now", link: "/videos/midnight-echo-live" },
   { icon: MapPin, category: "Tour", title: "Brooklyn, NY · Mar 15", detail: "Tickets Available", cta: "Get Tickets", link: "/tour" },
 ];
 
-const roles = ["Post-Punk", "Electronic", "Atmospheric", "Brooklyn", "Live"];
+const roles = ["Washington DC", "Electronic", "Atmospheric", "Brooklyn", "Live"];
 
 const Index = () => (
   <div className="relative min-h-screen overflow-hidden">
@@ -30,7 +30,7 @@ const Index = () => (
             transition={{ delay: 0.5, duration: 0.8 }}
             className="font-script text-foreground/50 text-xl mb-6 italic"
           >
-            Since 2019
+            Since 2026
           </motion.p>
           <h1 className="font-script text-foreground text-[8rem] xl:text-[10rem] leading-[0.85] -rotate-6 select-none">
             Harper
@@ -41,7 +41,7 @@ const Index = () => (
             transition={{ delay: 0.8, duration: 0.6 }}
             className="font-script text-foreground/60 text-2xl mt-8 italic"
           >
-            Anthem Makers
+            Chris A. Harper
           </motion.p>
         </motion.div>
 
@@ -84,7 +84,7 @@ const Index = () => (
             transition={{ duration: 0.8 }}
             className="text-center px-6"
           >
-            <p className="font-script text-foreground/50 text-lg mb-2 italic">Since 2019</p>
+            <p className="font-script text-foreground/50 text-lg mb-2 italic">Since 2026</p>
             <h1 className="font-script text-foreground text-7xl leading-[0.85] select-none">
               Harper
             </h1>
