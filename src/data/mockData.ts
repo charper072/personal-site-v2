@@ -73,7 +73,7 @@ export const videos: Video[] = [
 ];
 
 export const tourDates: TourDate[] = [
-  { id: "1", date: "2024-03-15", month: "MAR", day: 15, city: "Brooklyn", state: "NY", venue: "Brooklyn Steel", eventName: "Spring Awakening Tour", status: "available" },
+  { id: "1", date: "2024-03-15", month: "MAR", day: 15, city: "Washington DC", state: "DC", venue: "The Anthem", eventName: "Spring Awakening Tour", status: "available" },
   { id: "2", date: "2024-03-22", month: "MAR", day: 22, city: "Los Angeles", state: "CA", venue: "The Wiltern", eventName: "West Coast Sessions", status: "available" },
   { id: "3", date: "2024-04-05", month: "APR", day: 5, city: "Chicago", state: "IL", venue: "Metro Chicago", eventName: "Midwest Thunder", status: "available" },
   { id: "4", date: "2024-04-12", month: "APR", day: 12, city: "Austin", state: "TX", venue: "Mohawk Austin", eventName: "Southern Nights", status: "sold-out" },

@@ -10,7 +10,7 @@ const latestAdditions = [
   { icon: MapPin, category: "Tour", title: "Brooklyn, NY · Mar 15", detail: "Tickets Available", cta: "Get Tickets", link: "/tour" },
 ];
 
-const roles = ["High Point", "Electronic", "Visionary", "Brooklyn", "Live"];
+const roles = ["High Point", "Electronic", "Visionary", "Washington DC", "Live"];
 
 const Index = () => (
   <div className="relative min-h-screen overflow-hidden">
