@@ -20,7 +20,7 @@ const Info = () => (
           <p className="font-body text-muted-foreground leading-relaxed text-lg">{bandBio}</p>
 
           <div>
-            <h2 className="font-body text-xs font-semibold text-muted-foreground uppercase tracking-[0.2em] mb-5">Members</h2>
+            <h2 className="font-body text-xs font-semibold text-muted-foreground uppercase tracking-[0.2em] mb-5">Certifications</h2>
             <div className="space-y-3">
               {bandMembers.map((m) => (
                 <div key={m.name} className="flex items-baseline gap-3">
